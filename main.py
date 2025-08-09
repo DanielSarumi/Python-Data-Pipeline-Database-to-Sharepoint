@@ -6,13 +6,13 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 conn = start_db_connection()
-query = """SELECT [Bar Code], 'GROCERIES' AS Department, Description FROM activesku """
+query = """INSERT YOUR QUERY HERE """
 result = sql_query(connection=conn, query=query)
 df = pd.read_sql_query(query, conn)
 
 print(df.head())
 
-target_list = "Groceries List"
+target_list = "INSERT LIST NAME"
 
 site = sharepoint_cred()
 sp_list = site.List(f"{target_list}")
