@@ -41,18 +41,6 @@ site=https://yourcompany.sharepoint.com/sites/YourSite
 sharepointlink=https://yourcompany.sharepoint.com
 ```
 
-## Project Structure
-
-```
-sharepoint-hybrid-sync/
-│
-├── main.py              # Main execution script
-├── passmanager.py       # Core functions and PowerShell integration
-├── .env                 # Configuration file
-├── requirements.txt     # Python dependencies
-└── README.md           # This file
-```
-
 ## How It Works
 
 ### Process Flow
