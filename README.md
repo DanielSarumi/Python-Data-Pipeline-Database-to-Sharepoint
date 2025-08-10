@@ -4,11 +4,9 @@ A Python–PowerShell hybrid solution to sync SQL Server data into SharePoint On
 
 ##  Features
 
-- **License Cost Saver**: Saves the cost of PowerApps Premium SQL Server connector
-- **Smart Detection**: Chooses Python for small lists, PowerShell for large lists (>5,000 items)
-- **High-Speed Bulk Deletion**: Deletes 10k+ rows in minutes, far faster than Power Automate
+- **Save Cost of License**: Saves the cost of PowerApps Premium SQL Server connector
+- **Faster Bulk Deletion**: Deletes 10k+ rows in minutes, far faster than Power Automate
 - **Batch Processing**: Efficiently handles lists of any size (tested with 15,000+ items)
-- **Automatic Fallback**: If Python fails due to SharePoint limits, PowerShell takes over
 - **Reusable**: Adaptable for any SQL → SharePoint list scenario
 
 ##  Prerequisites
