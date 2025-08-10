@@ -2,7 +2,7 @@
 
 A Python–PowerShell hybrid solution to sync SQL Server data into SharePoint Online lists while bypassing PowerApps' Premium connector requirement. Built for speed, reliability, and to overcome SharePoint’s 5,000-item view threshold
 
-## 🚀 Features
+##  Features
 
 - **License Cost Saver**: Saves the cost of PowerApps Premium SQL Server connector
 - **Smart Detection**: Chooses Python for small lists, PowerShell for large lists (>5,000 items)
@@ -11,7 +11,7 @@ A Python–PowerShell hybrid solution to sync SQL Server data into SharePoint On
 - **Automatic Fallback**: If Python fails due to SharePoint limits, PowerShell takes over
 - **Reusable**: Adaptable for any SQL → SharePoint list scenario
 
-## 🔧 Prerequisites
+##  Prerequisites
 
 ### Software Requirements
 - Python 3.7+
@@ -26,7 +26,7 @@ pip install pandas python-dotenv sqlalchemy pyodbc shareplum
 ### SharePoint Client Libraries
 Download and install: [SharePoint Client Components SDK](https://www.microsoft.com/en-us/download/details.aspx?id=42038)
 
-## ⚙️ Configuration
+##  Configuration
 
 Edit the `.env` file in your project directory:
 
@@ -41,7 +41,7 @@ site=https://yourcompany.sharepoint.com/sites/YourSite
 sharepointlink=https://yourcompany.sharepoint.com
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 sharepoint-hybrid-sync/
@@ -53,7 +53,7 @@ sharepoint-hybrid-sync/
 └── README.md           # This file
 ```
 
-## 🔄 How It Works
+## How It Works
 
 ### Process Flow
 
@@ -78,9 +78,9 @@ flowchart TD
     N --> O
 ```
 
-## 🚀 Usage
+## Usage
 
-## 🛠️ Customization
+##  Customization
 
 ### Modify SQL Query
 Edit the query in `main.py`:
@@ -110,4 +110,4 @@ $BatchSize = 500  # Change to your preferred size
 
 ---
 
-**⭐ If this project helped you, please give it a star!**
+** If this project helped you, please give it a star!**
